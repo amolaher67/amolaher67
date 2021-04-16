@@ -1,0 +1,4 @@
+Ef Core performance profiler - https://benchmarkdotnet.org/articles/overview.html
+1. Eager Loading  -  use inlude
+2. Lazy Loading -  use ENtry and load - having n+1 problem many roudtrip to Db and many commands get exuted
+3. Select Loading  - select {  }  - best performance - 
