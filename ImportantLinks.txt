@@ -1,4 +1,12 @@
 Ef Core performance profiler - https://benchmarkdotnet.org/articles/overview.html
-1. Eager Loading  -  use inlude
+1. Eager Loading  -  use Include(s=>s.tableName)  - By Default Lazy loading is disabled in ef core
 2. Lazy Loading -  use ENtry and load - having n+1 problem many roudtrip to Db and many commands get exuted
 3. Select Loading  - select {  }  - best performance - 
+
+Dotnet Core EF Core issues when dont write it correctly.
+
+1. Default data tyoe is nvarchar(max) which is issue it will take huge space and performance issue
+2. use to specify maxlength  or use varchar(some length)
+3. using include for all data is bad idea use top to reduce count
+4. DoNot use C# custom function onto Where Clause for Ef Core query
+5. Dont return DbContext Models directly becuase jsonSerializer dont like birirection relationship beause dbcontext classes has mapping to each other
