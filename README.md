@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @amolaher67
-- 👀 I’m interested in Microsoft as well as open source Technologies
-- 🌱 I’m currently learning React
+- 👀 I’m Full stack Engineer ( Dontet +Javascript (React,Angular,Node))
+- 🌱 I’m currently learning Azure + Software Architecture + Team Leading
 - 💞️ I’m looking to collaborate on ...
 - 📫 Reach out to me at amol.aher67@gmail.com
 
